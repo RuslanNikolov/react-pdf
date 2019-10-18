@@ -1,4 +1,4 @@
-import { getURL, isSrcDest, setLink } from '../src/utils/url';
+import { getURL, getIsSrcDest, setLink } from '../src/utils/url';
 import Base from '../src/elements/Base';
 import root from './utils/dummyRoot';
 
@@ -46,9 +46,14 @@ describe('getURL', () => {
     expect(getURL(url)).toEqual(url);
   });
 
-  test('isSrcDest', () => {
+  test('it should return the value if it is a destination and not url', () => {
     const src = '#myDest';
-    expect(isSrcDest(src)).toBeTruthy();
+    expect(getURL(src)).toBe(src);
+  });
+
+  test('getIsSrcDest', () => {
+    const src = '#myDest';
+    expect(getIsSrcDest(src)).toBeTruthy();
   });
 
   test('setLink when src is valid URL', () => {
