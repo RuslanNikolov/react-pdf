@@ -17,7 +17,6 @@ export const isSrcDest = src => src.match(DEST_REGEXP);
 
 export const setLink = node => {
   const { top, left, width, height } = node.getAbsoluteLayout();
-
   const instanceMethod = isSrcDest(node.src) ? 'goTo' : 'link';
   const nodeSrc = isSrcDest(node.src) ? node.src.slice(1) : node.src;
 
