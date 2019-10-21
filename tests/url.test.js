@@ -52,8 +52,10 @@ describe('getURL', () => {
   });
 
   test('isSrcDest', () => {
-    const src = '#myDest';
-    expect(isSrcDest(src)).toBeTruthy();
+    const validDestSrc = '#myDest';
+    expect(isSrcDest(validDestSrc)).toBeTruthy();
+    const invalidDestSrcs = ['#', 'google.com', 'www.google.com'];
+    invalidDestSrcs.forEach(src => expect(isSrcDest(src)).toBeFalsy());
   });
 
   test('setLink when src is valid URL', () => {
