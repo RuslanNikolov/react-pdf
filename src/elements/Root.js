@@ -1,4 +1,4 @@
-import PDFDocument from '-ruslan-pdfkit';
+import PDFDocument from 'pdfkit';
 
 class Root {
   constructor() {

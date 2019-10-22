@@ -1,4 +1,4 @@
-import { PDFFontFactory } from '-ruslan-pdfkit';
+import { PDFFontFactory } from 'pdfkit';
 
 class StandardFont {
   constructor(src) {

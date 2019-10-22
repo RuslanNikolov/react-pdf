@@ -2,17 +2,6 @@
 # yarn lockfile v1
 
 
-"-ruslan-pdfkit@git://github.com/RuslanNikolov/-ruslan-pdfkit":
-  version "1.2.0"
-  resolved "git://github.com/RuslanNikolov/-ruslan-pdfkit#0b3f1f22924b1f54d20868b8f1c6787dabc6bb5c"
-  dependencies:
-    "@react-pdf/fontkit" "^1.11.0"
-    "@react-pdf/png-js" "^1.0.0"
-    crypto-js "^3.1.9-1"
-    linebreak "^0.3.0"
-    lz-string "^1.4.4"
-    saslprep "1.0.1"
-
 "@babel/cli@^7.2.3":
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.2.3.tgz#1b262e42a3e959d28ab3d205ba2718e1923cfee6"
@@ -5132,6 +5121,17 @@ path-type@^3.0.0:
   integrity sha512-T2ZUsdZFHgA3u4e5PfPbjd7HDDpxPnQb5jN0SrDsjNSuVXHJqtwTnWqG0B1jZrgmJ/7lj1EmVIByWt1gxGkWvg==
   dependencies:
     pify "^3.0.0"
+
+"pdfkit@https://github.com/RuslanNikolov/pdfkit.git":
+  version "1.2.0"
+  resolved "https://github.com/RuslanNikolov/pdfkit.git#7d7132364351d63723b44b4193ff3432dc53e0df"
+  dependencies:
+    "@react-pdf/fontkit" "^1.11.0"
+    "@react-pdf/png-js" "^1.0.0"
+    crypto-js "^3.1.9-1"
+    linebreak "^0.3.0"
+    lz-string "^1.4.4"
+    saslprep "1.0.1"
 
 performance-now@^2.1.0:
   version "2.1.0"
