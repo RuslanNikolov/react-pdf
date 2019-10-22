@@ -23,7 +23,7 @@
     "test:size": "bundlesize"
   },
   "dependencies": {
-    "pdfkit": "https://github.com/RuslanNikolov/pdfkit.git",
+    "pdfkit": "git://github.com/RuslanNikolov/pdfkit.git",
     "@babel/runtime": "^7.6.2",
     "@react-pdf/fontkit": "^1.13.0",
     "@react-pdf/png-js": "^1.0.0",

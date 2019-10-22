@@ -927,15 +927,6 @@
     tiny-inflate "^1.0.2"
     unicode-trie "^0.3.0"
 
-"@react-pdf/pdfkit@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@react-pdf/pdfkit/-/pdfkit-1.2.0.tgz#f5fe288578567536e58de1998a3e13ee2e4ac930"
-  integrity sha1-9f4ohXhWdTbljeGZij4T7i5KyTA=
-  dependencies:
-    "@react-pdf/fontkit" "^1.11.0"
-    "@react-pdf/png-js" "^1.0.0"
-    lz-string "^1.4.4"
-
 "@react-pdf/png-js@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
@@ -5122,9 +5113,9 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
-"pdfkit@https://github.com/RuslanNikolov/pdfkit.git":
+"pdfkit@git://github.com/RuslanNikolov/pdfkit.git":
   version "1.2.0"
-  resolved "https://github.com/RuslanNikolov/pdfkit.git#7d7132364351d63723b44b4193ff3432dc53e0df"
+  resolved "git://github.com/RuslanNikolov/pdfkit.git#44b0f307521565fc26581d5cf40c0603e49023b8"
   dependencies:
     "@react-pdf/fontkit" "^1.11.0"
     "@react-pdf/png-js" "^1.0.0"
