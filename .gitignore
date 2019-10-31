@@ -2,5 +2,4 @@ node_modules
 *.log
 .jshintrc
 .idea
-dist
 .DS_Store
